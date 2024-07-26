@@ -69,6 +69,12 @@ body {
   box-shadow: 0.7vw 0.7vw 1.4vw rgba(0,0,0,0.9)
 }
 
+
+
+.textshadow {
+  text-shadow: 0 0 0.7vw black;
+}
+
 @media(max-width:640px) {
   .noShadow {
     box-shadow: none;
