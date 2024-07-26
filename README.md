@@ -8,4 +8,4 @@ I’m a passionate self-taught full stack developer with expertise in building b
 
 ## Contact Me
 
-I’m always open to discussing potential collaborations or answering any questions you may have. Feel free to reach out to me through the following channels:
+I’m always open to discussing potential collaborations or answering any questions you may have. Feel free to reach out to me.
