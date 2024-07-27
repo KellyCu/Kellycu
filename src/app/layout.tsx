@@ -26,7 +26,7 @@ export default function RootLayout({
           <Nav />
         </div>
         {children}
-        <div className="w-full h-60" >
+        <div id="Contacts" className="w-full h-60" >
           <Foot />
         </div>
         </body>
