@@ -69,11 +69,63 @@ body {
   box-shadow: 0.7vw 0.7vw 1.4vw rgba(0,0,0,0.9)
 }
 
-
-
 .textshadow {
   text-shadow: 0 0 0.7vw black;
 }
+
+.csWidth {
+  width: 97%;
+}
+
+.csWidth2 {
+  width: 9%;
+}
+
+.csHeight {
+  height: 70vh;
+}
+
+
+#rd {
+  position: relative;
+  right: 7%;
+}
+
+#jp {
+  position: relative;
+  right: 2%;
+}
+
+#sql {
+  position: relative;
+  right: 0%;
+}
+
+#bd {
+  position: relative;
+  left: 6%;
+}
+
+#fd {
+  position: relative;
+  left: 1%;
+}
+
+#sqli {
+  position: relative;
+  left: 8%;
+}
+
+#av {
+  position: relative;
+  left: 2%;
+}
+
+#ssrf {
+  position: relative;
+  left: 8%;
+}
+
 
 @media(max-width:640px) {
   .noShadow {

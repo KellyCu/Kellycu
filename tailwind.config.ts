@@ -19,7 +19,7 @@ const config: Config = {
       },
       screens: {
         xs: '320px',
-      }
+      },
     },
   },
   plugins: [],
