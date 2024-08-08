@@ -77,7 +77,7 @@ export default function Journey() {
                     return(
                         <div key={index} id={up.id} className='w-1/5 h-4/5 mr-3 flex flex-col justify-center items-center'>
                             <div key={index} className='w-full h-2/3 relative'>
-                                <Image key={index} src={up.src} alt={up.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 border-2 border-gray-500 rounded-sm' fill/>
+                                <Image key={index} src={up.src} alt={up.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 hover:duration-300 border-2 border-gray-500 rounded-sm' fill/>
                             </div>
                             <div key={index} className='w-0 h-1/3 border'>
                             </div>
@@ -102,7 +102,7 @@ export default function Journey() {
                             <div key={index} className='w-0 h-1/3 border'>
                             </div>
                             <div key={index} className='w-full h-2/3 relative border'>
-                                <Image key={index} src={inv.src} alt={inv.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 border-2 border-gray-500 rounded-sm' fill/>
+                                <Image key={index} src={inv.src} alt={inv.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 hover:duration-300 border-2 border-gray-500 rounded-sm' fill/>
                             </div>
                         </div>
                     )
