@@ -81,49 +81,162 @@ body {
   height: 70vh;
 }
 
+#yr1 {
+  position: relative;
+  top: -9%;
+}
+
+#yr2 {
+  position: relative;
+  top: -25%;
+}
+
+#yr3 {
+  position: relative;
+  top: -20%;
+  top: 0%;
+}
+
 
 #rd {
   position: relative;
-  right: 7%;
+  top: -9%;
 }
 
 #jp {
   position: relative;
-  right: 2%;
+  top: 4%;
 }
 
 #sql {
   position: relative;
-  right: 0%;
+  top: 8%;
 }
 
 #bd {
   position: relative;
-  left: 6%;
+  top: 3%;
 }
 
 #fd {
   position: relative;
-  left: 1%;
+  top: 10%;
 }
 
 #sqli {
   position: relative;
-  left: 8%;
+  top: 7%;
 }
 
 #av {
   position: relative;
-  left: 2%;
+  top: 14%;
 }
 
 #ssrf {
   position: relative;
-  left: 8%;
+  top: 8%;
 }
 
+/* Mobile view desc */
+@media(max-width:767px) {
+  #rd {
+    right: 0%;
+    
+  }
+  
+  #jp {
+    right: 0%;
+    
+  }
+  
+  #sql {
+    right: 0%;
+    
+  }
+  
+  #bd {
+    left: 0%;
+    
+  }
+  
+  #fd {
+    left: 0%;
+    
+  }
+  
+  #sqli {
+    left: 0%;
+    
+  }
+  
+  #av {
+    left: 0%;
+    
+  }
+  
+  #ssrf {
+    left: 0%;
+    
+  }
+}
 
-@media(max-width:640px) {
+/* Desktop view asc */
+@media(min-width:768px) {
+  #rd {
+    right: 7vw;
+    top: 0%;
+  }
+  
+  #jp {
+    right: 1vw;
+    top: 0%;
+  }
+  
+  #sql {
+    right: 0vw;
+    top: 0%;
+  }
+  
+  #bd {
+    left: 6vw;
+    top: 0%;
+  }
+  
+  #fd {
+    left: 1vw;
+    top: 0%;
+  }
+  
+  #sqli {
+    left: 8vw;
+    top: 0%;
+  }
+  
+  #av {
+    left: 2vw;
+    top: 0%;
+  }
+  
+  #ssrf {
+    left: 8vw;
+    top: 0%;
+  }
+}
+/* min width is used so the mobile layout wont get messed up */
+@media (min-width: 1024px) {
+  #sql {
+    left: 1.5vw;
+  }
+  #sqli {
+    left: 11vw;
+  }
+  #ssrf {
+    left: 11vw;
+  }
+}
+
+@media(min-width:640px) {
   .noShadow {
     box-shadow: none;
   }

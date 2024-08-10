@@ -16,14 +16,14 @@ export default function Home() {
 
         const first = viewportHeight - 250;
         const second = first + viewportHeight + 50;
-        const third = second + viewportHeight + 100;
+        const third = second + viewportHeight + 80;//100
 
         
         if (scrollPosition < first) {
           setVisibleSection(1);
-        } else if (scrollPosition < second ) {
+        } else if (scrollPosition <= second ) {
           setVisibleSection(2);
-        } else if (scrollPosition < third) {
+        } else if (scrollPosition <= third) {
           setVisibleSection(3);
         } else {
           setVisibleSection(4);

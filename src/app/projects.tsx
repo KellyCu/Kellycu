@@ -34,7 +34,7 @@ export default function Projects() {
                     <div id="projectContainer" className="flex flex-col justify-start xs:items-center xs:w-11/12 sm:w-full h-full md:h-5/6 lg:h-full">
                         {box.map((box, index) => {
                             return(
-                                <div key={index} className="relative md:left-5 xs:w-11/12 xs:h-80 sm:w-3/4 sm:h-60 xl:h-64 md:w-4/5 lg:w-3/5 flex xs:flex-col sm:flex-row items-center border rounded-lg mb-5 xs:p-1 shadow-lg shadow-white/20">
+                                <div key={index} className="relative md:left-5 xs:w-11/12 xs:h-80 sm:w-3/4 sm:h-60 xl:h-64 md:w-4/5 lg:w-3/5 flex xs:flex-col sm:flex-row items-center border-2 rounded-lg mb-5 xs:p-1 shadow-lg shadow-white/20">
                                     <div className="relative xs:w-full xs:h-4/6 sm:w-2/3 md:w-4/5 lg:w-11/12 sm:h-3/4 lg:h-2/3 sm:-left-14 xl:-left-16 hover:scale-105 hover:ease-in-out hover:duration-300">
                                         <Link key={index} href={box.href} target='_blank'>
                                             <Image key={index} src={box.img} alt={box.altxt} className='noShadow shadow-lg shadow-white/25 xs:rounded-t-lg customBr sm:rounded-md cursor-pointer' fill/>
