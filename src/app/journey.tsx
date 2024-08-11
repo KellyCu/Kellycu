@@ -91,20 +91,20 @@ export default function Journey() {
                     console.log(up.key);
                     return(
                         <div key={up.key} id={up.id} className='xs:h-1/5 xs:w-full sm:h-1/5 sm:w-3/4 md:h-2/3 md:w-1/5 xl:h-4/5 md:mr-3 flex xs:flex-row md:flex-col xs:justify-end md:justify-center items-center'>
-                            <div key={up.key} className='xs:w-5/6 xs:h-full sm:w-3/4 sm:h-full md:w-full md:h-2/3 relative'>
+                            <div key={up.key} className='xs:w-5/6 xs:h-full sm:w-3/4 sm:h-full md:w-full md:h-2/3 relative '>
                                 <Image key={up.key} src={up.src} alt={up.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 hover:duration-300 border-2 border-gray-500 rounded-sm' fill/>
                             </div>
-                            <div key={up.key} className='xs:w-1/5 xs:h-0 sm:w-1/6 sm:h-0 md:w-0 md:h-1/3 border'>
+                            <div key={up.key} className='xs:w-1/5 xs:h-0 sm:w-1/6 sm:h-0 md:w-0 md:h-1/3 border borderGlow'>
                             </div>  
                         </div>
                     )
                 })}
             </div>
-            <div className="xs:w-0 xs:h-full md:w-11/12 md:h-0 flex xs:flex-col md:flex-row justify-around items-center md:pl-5 md:pr-5 relative border">
+            <div className="xs:w-0 xs:h-full md:w-11/12 md:h-0 flex xs:flex-col md:flex-row justify-around items-center md:pl-5 md:pr-5 relative border borderGlow">
                 {years.map((yr) => {
                     console.log(yr.key);
                     return(
-                        <div key={yr.key} id={yr.id} className='w-5 h-5 rounded-full border bg-white relative xs:-top-12 md:-top-0 md:-left-28 xl:-left-52 flex justify-center '>
+                        <div key={yr.key} id={yr.id} className='w-5 h-5 rounded-full border borderGlow bg-white relative xs:-top-12 md:-top-0 md:-left-28 xl:-left-52 flex justify-center '>
                             <h1 className='relative xs:-top-9 md:top-10 text-2xl textglow1'>{yr.year}</h1>
                         </div>
                     )
@@ -115,7 +115,7 @@ export default function Journey() {
                     console.log(inv.key);
                     return(
                         <div key={inv.key} id={inv.id} className='xs:h-1/5 xs:w-full sm:h-1/5 sm:w-3/4 md:h-2/3 md:w-1/5 xl:h-4/5 md:mr-3 flex xs:flex-row md:flex-col xs:justify-start md:justify-center items-center'>
-                            <div key={inv.key} className='xs:w-1/5 xs:h-0 sm:w-1/6 sm:h-0 md:w-0 md:h-1/3 border'>
+                            <div key={inv.key} className='xs:w-1/5 xs:h-0 sm:w-1/6 sm:h-0 md:w-0 md:h-1/3 border borderGlow'>
                             </div>
                             <div key={inv.key} className='xs:w-5/6 xs:h-full sm:w-3/4 sm:h-full md:w-full md:h-2/3 relative'>
                                 <Image key={inv.key} src={inv.src} alt={inv.name} className='hover:absolute hover:scale-150 hover:object-cover hover:cursor-pointer hover:z-30 hover:duration-300 border-2 border-gray-500 rounded-sm' fill/>
