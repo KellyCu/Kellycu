@@ -6,7 +6,7 @@ export default function About() {
                     <h1 className="xs:text-lg textglow1">About Me</h1>
                 </div>
                 <div className="xs:w-auto xs:h-auto">
-                    <p className="text-justify">I am a self-taught full stack developer with a passion for building dynamic and responsive web applications. My skill set includes HTML, SCSS, JavaScript, Node.js, Express, Next.js, Typescript, SQL, and MongoDB. I am also delving into Web Security, including pentesting and OSINT (Open Source Intelligence). My goal is to create secure and efficient web solutions. <span className="animate-blink"> |</span> </p>
+                    <p className="text-justify">I am a self-taught full stack developer with a passion for building dynamic and responsive web applications. My skill set includes HTML, SCSS, JavaScript, Node.js, Express, Next.js, Typescript, SQL, and MongoDB. I am also delving into Web Security, including pentesting and Open Source Intelligence(OSINT). My goal is to create secure and efficient web solutions. <span className="animate-blink"> |</span> </p>
                 </div>
             </div>
         </div>
