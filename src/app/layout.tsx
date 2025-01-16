@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import Nav from "./nav";
 import Foot from './footer';
@@ -29,6 +30,7 @@ export default function RootLayout({
         <div id="Contacts" className="w-full h-60" >
           <Foot />
         </div>
+        <Analytics />
         </body>
     </html>
   );
